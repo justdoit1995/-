@@ -9,5 +9,11 @@
     <table schema="untodo" tableName="student">
       <columnOverride column="LONG_VARCHAR_FIELD" property="VARCHAR" />
     </table>
+    <table schema="untodo" tableName="book">
+      <columnOverride column="LONG_VARCHAR_FIELD" property="VARCHAR" />
+    </table>
+    <table schema="untodo" tableName="appointment">
+      <columnOverride column="LONG_VARCHAR_FIELD" property="VARCHAR" />
+    </table>
   </context>
 </generatorConfiguration>
