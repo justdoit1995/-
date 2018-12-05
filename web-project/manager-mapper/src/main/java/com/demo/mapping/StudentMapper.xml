@@ -236,4 +236,7 @@
     set password = #{password,jdbcType=BIGINT}
     where student_id = #{studentId,jdbcType=BIGINT}
   </update>
+  <select id="findUserByNameAndPwd"  parameterType="map"  resultType="Student">
+		select t.student_id,t.password from student t where student_id=#{student_id} and password=#{password}
+	</select>
 </mapper>
