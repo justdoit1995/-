@@ -1,0 +1,6 @@
+<configuration>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true" />
+    </settings>
+
+</configuration>
