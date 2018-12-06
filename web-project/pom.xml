@@ -120,10 +120,21 @@
   					<target>1.8</target>
   				</configuration>
   			</plugin>
+  			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<!-- 指定端口 -->
+					<port>8080</port>
+					<!-- 请求路径 -->
+					<path>/erp</path>
+				</configuration>
+	  	  </plugin>
   		</plugins>
   	</pluginManagement>
     <finalName>web-project</finalName>
   </build>
+  
   <modules>
   	<module>manager-mapper</module>
   	<module>manager-service</module>
