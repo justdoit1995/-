@@ -6,4 +6,15 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>manager-controller</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.cgf</groupId>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>com.cgf</groupId>
+  		<artifactId>manager-service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
 </project>
